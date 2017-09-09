@@ -1,0 +1,10 @@
+how to compile c file in linux?
+1. create file a.c, use command "gcc a.c -o a"
+2. execute command "./a"
+
+how to compile some file has reference ?
+1. create add.c ,sub.c, test.h
+2. gcc add.c sub.c -o app
+3. ./app
+ps. "app" you named the compiled file. you can use any word as the name you like.
+-o the path to save compiled file. -o current directoy.
